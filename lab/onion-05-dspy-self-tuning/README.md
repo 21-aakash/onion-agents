@@ -21,6 +21,12 @@ This project demonstrates **DSPy (Declarative Self-improving Python)**:
 
 ---
 
+## 📓 Interactive Hands-On Notebook
+Open and run **[`dspy_hands_on_masterclass.ipynb`](./dspy_hands_on_masterclass.ipynb)**:
+A 12-stage interactive tutorial walking step-by-step from `pip install dspy` and LM configuration to custom Module creation, gold eval metrics, `BootstrapFewShot` compilation, and production program serialization.
+
+---
+
 ## 🖥️ The 3-Panel Studio
 
 | View | Model & Strategy | Accuracy | Strict Schema | Cost / 100k |
