@@ -1,4 +1,4 @@
-# Paradigm 4: Tree-of-Thought (ToT) & Deliberative Graph Search 🧠🌳
+# Onion 04: Tree-of-Thought (ToT) & Deliberative Graph Search 🧠🌳
 
 > **Research Anchor**: *“Tree of Thoughts: Deliberate Problem Solving with Large Language Models”* (Yao et al., Princeton / Google DeepMind).
 
