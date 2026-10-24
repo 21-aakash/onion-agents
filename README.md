@@ -23,7 +23,9 @@ onion-agents/
 │   ├── paradigm-02-agent-memory/                  # Meta AI Paper: Episodic vs. semantic proactive memory companion
 │   ├── paradigm-03-reflection-eval/               # Reflexion: Self-critique, verbal reinforcement & 3-tier eval loops
 │   ├── paradigm-04-tree-of-thought/               # Princeton/DeepMind: Deliberate problem solving via BFS/DFS tree search
-│   └── paradigm-05-dspy-self-tuning/              # Stanford DSPy: Auto-compiled teleprompters & multi-agent cascade healing
+│   ├── paradigm-05-dspy-self-tuning/              # Stanford DSPy: Auto-compiled teleprompters & multi-agent cascade healing
+│   ├── paradigm-06-recursive-language-models/     # RLMs: Overcoming context rot via "Code as Memory" loop decomposition
+│   └── paradigm-07-agentify-mcp-builder/          # Agentify: Zero-code OpenAPI to TypeScript / Python MCP tool generator
 │
 ├── 🚀 fleet/ (Flagship Production Systems) ──────── Proof of Product Execution
 │   └── b-research-agent/                          # Autonomous multi-agent research & knowledge engine with voice triage
@@ -47,6 +49,8 @@ onion-agents/
 | **03** | **[paradigm-03-reflection-eval](./lab/paradigm-03-reflection-eval)** | Reflexion & Test-Driven Iteration | Preventing static error persistence via verbal reinforcement and judge loops. | Regression Test Harness |
 | **04** | **[paradigm-04-tree-of-thought](./lab/paradigm-04-tree-of-thought)** | Princeton / DeepMind Tree-of-Thought (ToT) | Complex combinatorial planning via state heuristic scoring and backtracking. | Graph Search Harness |
 | **05** | **[paradigm-05-dspy-self-tuning](./lab/paradigm-05-dspy-self-tuning)** | Stanford DSPy Compiler (`BootstrapFewShot`) | Healing model swap degradation (15x cost reduction) & eliminating multi-agent domino cascades. | Dual Studio (Vintage Beige & Navy Blue) |
+| **06** | **[paradigm-06-recursive-language-models](./lab/paradigm-06-recursive-language-models)** | Recursive Language Models (RLMs) | Defeating context rot across 10,000+ items by using Python code execution as memory. | Multi-Script Hands-On Suite |
+| **07** | **[paradigm-07-agentify-mcp-builder](./lab/paradigm-07-agentify-mcp-builder)** | Model Context Protocol (MCP) Generator | Generating instant, typed TypeScript & Python MCP servers directly from OpenAPI specs. | CLI Generator (`@skyaque/agentify`) |
 
 ---
 

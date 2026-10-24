@@ -1,0 +1,11 @@
+# Script 01: local Ollama (no API key needed)
+openai>=1.0.0
+python-dotenv
+
+# Script 02: LangChain
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+
+# Script 03: rlms library (MIT CSAIL)
+rlms>=0.1.3
