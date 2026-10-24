@@ -1,5 +1,5 @@
-# onion-agents
-### Curated Collection of Autonomous AI System Paradigms
+# 🧅 onion-agents
+### The Multi-Layered Autonomous AI Systems Monorepo
 
 <p align="center">
   <img src="./assets/banner.jpg" alt="Family of Cute Onion AI Agents Mascot" width="100%" />
@@ -7,98 +7,93 @@
 
 ---
 
-A curated, production-grade monorepo featuring specialized AI agent architectures, multi-agent workflows, memory sidecars, and self-optimizing pipelines demonstrating foundational AI system paradigms.
+**onion-agents** is a curated, production-grade monorepo organizing autonomous agent architectures into two high-visibility pillars:
+1. **🔬 The Lab**: Deep mathematical and paper implementations proving fundamental agent engineering paradigms with interactive visual sandboxes.
+2. **🚀 The Fleet**: Battle-tested, full-scale production applications graduating findings from The Lab.
+3. **📚 Insights & Artifacts**: Academic paper breakdowns, production post-mortems, and reproducible eval benchmarks.
 
 ---
 
-## 🧅 Agent Kits & System Paradigms
-
-| Paradigm | Agent Kit | Architectural Paradigm | Core Technologies | Description |
-|---|---|---|---|---|
-| **01** | **[Refundbot](./Refundbot)** | **Deterministic Guardrail & Tool-Calling** | Python, FastAPI, SQLite / PostgreSQL | Customer service and refund decision engine with policy evaluation, fraud scoring, and immutable audit trails. |
-| **02** | **[Research Assistant (`b-research-agent`)](./b-research-agent)** | **Multi-Agent Directed Graph (DAG)** | LangGraph, FastAPI, Qdrant Vector DB, React 18 | Autonomous multi-agent pipeline: Planner ➔ Research ➔ Writer ➔ Critic with human-in-the-loop verification, evaluation dashboard, and voice todo notes. |
-| **03** | **[Agent Memory Manager](./agent-memory-manager)** | **External Memory Companion & Sidecar** | Python, Event-driven Memory Sidecar | Dedicated companion agent tracking execution errors, environmental drift, and delivering proactive memory reminders across long-horizon tasks. |
-| **04** | **[Self-Evaluation Agent](./self-evaluation-agent)** | **3-Tier Automated Evaluation Pipeline** | Python, LLM-as-a-Judge, Scikit-learn | Multi-layer testing system: Layer 1 (Deterministic Checks) ➔ Layer 2 (LLM-as-a-Judge) ➔ Layer 3 (Human Review Loops) with statistical significance regression testing. |
-| **05** | **[DSPy Self-Tuning Agent Studio](./dspy-self-tuning-agent)** | **Algorithmic Prompt Optimization & Multi-Agent Cascade** | DSPy 3.4.1, Groq, BootstrapFewShot, FastAPI | Dual-paradigm console: **Paradigm 5A** heals model swaps/data drift cutting costs 15x; **Paradigm 5B** jointly compiles 3-node multi-agent pipelines to eliminate cascading domino failures. |
-
----
-
-## 📂 Monorepo Structure
+## 🏛️ Monorepo Architecture
 
 ```
 onion-agents/
-├── assets/
-│   └── banner.jpg               # Cute onion mascot family banner
-├── Refundbot/                   # Paradigm 01: Policy guardrails & transaction decision engine
-│   ├── AGENTS.md                # Agent specification & tool contracts
-│   └── readme.md
-├── b-research-agent/            # Paradigm 02: Multi-agent LangGraph research & todo system
-│   ├── AGENTS.md                # Multi-agent graph specification
-│   ├── api/                     # FastAPI backend & LangGraph runner
-│   ├── ui/                      # React 18 + Vite frontend
-│   └── readme.md
-├── agent-memory-manager/        # Paradigm 03: Memory companion & error sidecar
-│   ├── AGENTS.md                # Memory companion specification
-│   └── readme.md
-├── self-evaluation-agent/       # Paradigm 04: 3-tier automated LLM evaluation pipeline
-│   ├── readme.md                # Architecture guide & regression testing suite
-│   └── evaluation/              # Deterministic & LLM-as-a-judge evaluators
-├── dspy-self-tuning-agent/      # Paradigm 05: DSPy optimization & multi-agent cascade studio
-│   ├── agent/                   # DSPy signatures, datasets, evaluators & multi-agent pipeline
-│   ├── web/                     # Dual-mode interactive console (Vintage Beige + Navy Blue)
-│   ├── server.py                # FastAPI simulation backend with live Groq inference
-│   ├── DSPY_FOUNDATIONS.md      # Core DSPy theory & framework comparison
-│   ├── USE_CASE_AND_ARCHITECTURE.md # Dispute engine architecture guide
-│   ├── PRODUCTION_FAILURE_MODES.md  # 5 production LLM failure classes
-│   ├── LINKEDIN_POST.md         # Thought leadership post on prompt lifecycle
-│   └── README.md
-├── AGENTS.md                    # Monorepo agent directory & standards
-└── README.md                    # Main overview & deployment guide
+├── 🔬 lab/ (Paradigms & Paper Implementations) ──── Proof of Knowledge & Deep Math
+│   ├── paradigm-01-refundbot/                     # Deterministic policies, tool-calling & financial guardrails
+│   ├── paradigm-02-agent-memory/                  # Meta AI Paper: Episodic vs. semantic proactive memory companion
+│   ├── paradigm-03-reflection-eval/               # Reflexion: Self-critique, verbal reinforcement & 3-tier eval loops
+│   ├── paradigm-04-tree-of-thought/               # Princeton/DeepMind: Deliberate problem solving via BFS/DFS tree search
+│   └── paradigm-05-dspy-self-tuning/              # Stanford DSPy: Auto-compiled teleprompters & multi-agent cascade healing
+│
+├── 🚀 fleet/ (Flagship Production Systems) ──────── Proof of Product Execution
+│   └── b-research-agent/                          # Autonomous multi-agent research & knowledge engine with voice triage
+│
+├── 📚 insights/ (Knowledge Base & Evidences) ───── Proof of Rigor & Evals
+│   ├── papers/                                    # Academic paper breakdowns & math summaries
+│   ├── blogs/                                     # Published engineering post-mortems & LinkedIn articles
+│   └── benchmarks/                                # Quantitative eval suites, gold datasets & stress tests
+│
+└── 🎨 assets/                                     # Mascot branding & UI assets
 ```
+
+---
+
+## 🔬 The Lab: System Paradigms
+
+| Paradigm | Directory | Core Research / Foundation | Primary Challenge Solved | Interactive Sandbox |
+|---|---|---|---|---|
+| **01** | **[paradigm-01-refundbot](./lab/paradigm-01-refundbot)** | Deterministic Guardrails & Strict Tool Schema | Eliminating prompt injection and enforcing immutable financial ceilings. | CLI & FastMCP Testbench |
+| **02** | **[paradigm-02-agent-memory](./lab/paradigm-02-agent-memory)** | Meta AI Proactive Memory Companion | Long-horizon context retention without quadratic token bloat. | FastAPI + Web Memory Visualizer |
+| **03** | **[paradigm-03-reflection-eval](./lab/paradigm-03-reflection-eval)** | Reflexion & Test-Driven Iteration | Preventing static error persistence via verbal reinforcement and judge loops. | Regression Test Harness |
+| **04** | **[paradigm-04-tree-of-thought](./lab/paradigm-04-tree-of-thought)** | Princeton / DeepMind Tree-of-Thought (ToT) | Complex combinatorial planning via state heuristic scoring and backtracking. | Graph Search Harness |
+| **05** | **[paradigm-05-dspy-self-tuning](./lab/paradigm-05-dspy-self-tuning)** | Stanford DSPy Compiler (`BootstrapFewShot`) | Healing model swap degradation (15x cost reduction) & eliminating multi-agent domino cascades. | Dual Studio (Vintage Beige & Navy Blue) |
+
+---
+
+## 🚀 The Fleet: Flagship Production Applications
+
+### **[fleet/b-research-agent](./fleet/b-research-agent)**
+An autonomous, multi-agent market and technical intelligence engine:
+* **Directed Acyclic Graph (DAG)**: Orchestrates Planner ➔ Researcher ➔ Synthesizer ➔ Critic agents with state persistence.
+* **Voice-to-Action Capture**: Integrated voice todo and notes triage hub for hands-free workflow capture.
+* **Enterprise Infrastructure**: Dockerized microservices, PostgreSQL/Qdrant vector memory, and React 18 dashboard.
+
+---
+
+## 📚 Insights & Artifacts
+
+* **[Research Papers Catalog](./insights/papers)**: Reading guides, mathematical abstractions, and algorithmic comparisons.
+* **[Engineering Articles & Post-Mortems](./insights/blogs)**: Why handcrafted prompts fail, domino error propagation, and security invariants.
+* **[Quantitative Benchmark Suites](./insights/benchmarks)**: Gold test sets for prompt drift, memory recall accuracy, and stress tests.
 
 ---
 
 ## 🚀 Independent Deployment Guide
 
-Each agent is decoupled and can be deployed individually from this monorepo:
+Each module is decoupled and can be deployed individually from this monorepo:
 
 ### 1. Render / Railway / Fly.io / Vercel
-Set the **Root Directory** (or **Base Directory**) in your service settings:
-* **Refundbot API**: `Refundbot`
-* **Research Assistant Backend**: `b-research-agent`
-* **Research Assistant UI**: `b-research-agent/ui`
-* **DSPy Studio Server**: `dspy-self-tuning-agent`
+Set the **Root Directory** in your project settings:
+* **Refundbot API**: `lab/paradigm-01-refundbot`
+* **Agent Memory Visualizer**: `lab/paradigm-02-agent-memory`
+* **DSPy Studio Server**: `lab/paradigm-05-dspy-self-tuning`
+* **Research Assistant API**: `fleet/b-research-agent`
+* **Research Assistant UI**: `fleet/b-research-agent/ui`
 
 ### 2. Docker Containers
-Build images directly targeting each agent directory:
+Build images directly targeting each sub-directory:
 ```bash
 # Build Refundbot
-docker build -t onion-agents/refundbot ./Refundbot
-
-# Build Research Agent API
-docker build -t onion-agents/research-agent ./b-research-agent
+docker build -t onion-agents/refundbot ./lab/paradigm-01-refundbot
 
 # Build DSPy Self-Tuning Studio
-docker build -t onion-agents/dspy-studio ./dspy-self-tuning-agent
-```
+docker build -t onion-agents/dspy-studio ./lab/paradigm-05-dspy-self-tuning
 
-### 3. GitHub Actions CI/CD
-Path-based triggers ensure deployments only execute when the targeted agent changes:
-```yaml
-name: Deploy DSPy Studio
-on:
-  push:
-    paths:
-      - 'dspy-self-tuning-agent/**'
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: echo "Deploying DSPy Self-Tuning Agent Studio..."
+# Build Flagship Research Agent API
+docker build -t onion-agents/research-agent ./fleet/b-research-agent
 ```
 
 ---
 
 ## 📄 License
-MIT
+MIT © 2026 Aakash & Onion Agents Contributors.
