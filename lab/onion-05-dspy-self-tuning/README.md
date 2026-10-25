@@ -68,6 +68,7 @@ dspy-self-tuning-agent/
 │   └── app.js            # Real-time simulation and optimization controller
 ├── server.py             # FastAPI backend with benchmark & optimization endpoints
 ├── dspy_hands_on_masterclass.ipynb # 12-Stage Interactive Jupyter Notebook
+├── WHEN_TO_USE_DSPY.md   # Unbiased architectural guide: when to use vs when to avoid
 ├── PRODUCTION_CASE_STUDIES.md # Real-world case studies (Databricks, Replit), metrics & post-mortems
 ├── PRODUCTION_FAILURE_MODES.md # The 5 classes of production failures solved by DSPy
 ├── DSPY_FOUNDATIONS.md   # Complete theoretical guide to DSPy
