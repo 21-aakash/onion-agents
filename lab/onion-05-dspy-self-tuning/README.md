@@ -67,8 +67,12 @@ dspy-self-tuning-agent/
 │   ├── style.css         # Dark-mode styling & glowing metrics
 │   └── app.js            # Real-time simulation and optimization controller
 ├── server.py             # FastAPI backend with benchmark & optimization endpoints
+├── dspy_hands_on_masterclass.ipynb # 12-Stage Interactive Jupyter Notebook
+├── PRODUCTION_CASE_STUDIES.md # Real-world case studies (Databricks, Replit), metrics & post-mortems
+├── PRODUCTION_FAILURE_MODES.md # The 5 classes of production failures solved by DSPy
 ├── DSPY_FOUNDATIONS.md   # Complete theoretical guide to DSPy
 ├── USE_CASE_AND_ARCHITECTURE.md # Detailed breakdown of the dispute policy engine
+├── LINKEDIN_POST.md      # Engineering thought leadership article
 └── README.md
 ```
 
