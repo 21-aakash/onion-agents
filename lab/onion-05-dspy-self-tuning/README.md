@@ -21,6 +21,12 @@ This project demonstrates **DSPy (Declarative Self-improving Python)**:
 
 ---
 
+## 📓 Interactive Hands-On Notebook
+Open and run **[`dspy_hands_on_masterclass.ipynb`](./dspy_hands_on_masterclass.ipynb)**:
+A 12-stage interactive tutorial walking step-by-step from `pip install dspy` and LM configuration to custom Module creation, gold eval metrics, `BootstrapFewShot` compilation, and production program serialization.
+
+---
+
 ## 🖥️ The 3-Panel Studio
 
 | View | Model & Strategy | Accuracy | Strict Schema | Cost / 100k |
@@ -61,8 +67,12 @@ dspy-self-tuning-agent/
 │   ├── style.css         # Dark-mode styling & glowing metrics
 │   └── app.js            # Real-time simulation and optimization controller
 ├── server.py             # FastAPI backend with benchmark & optimization endpoints
+├── dspy_hands_on_masterclass.ipynb # 12-Stage Interactive Jupyter Notebook
+├── PRODUCTION_CASE_STUDIES.md # Real-world case studies (Databricks, Replit), metrics & post-mortems
+├── PRODUCTION_FAILURE_MODES.md # The 5 classes of production failures solved by DSPy
 ├── DSPY_FOUNDATIONS.md   # Complete theoretical guide to DSPy
 ├── USE_CASE_AND_ARCHITECTURE.md # Detailed breakdown of the dispute policy engine
+├── LINKEDIN_POST.md      # Engineering thought leadership article
 └── README.md
 ```
 
