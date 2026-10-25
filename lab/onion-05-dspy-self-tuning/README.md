@@ -72,7 +72,6 @@ dspy-self-tuning-agent/
 ├── PRODUCTION_FAILURE_MODES.md # The 5 classes of production failures solved by DSPy
 ├── DSPY_FOUNDATIONS.md   # Complete theoretical guide to DSPy
 ├── USE_CASE_AND_ARCHITECTURE.md # Detailed breakdown of the dispute policy engine
-├── LINKEDIN_POST.md      # Engineering thought leadership article
 └── README.md
 ```
 

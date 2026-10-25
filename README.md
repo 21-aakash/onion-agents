@@ -32,7 +32,6 @@ onion-agents/
 │
 ├── 📚 insights/ (Knowledge Base & Evidences) ───── Proof of Rigor & Evals
 │   ├── papers/                                    # Academic paper breakdowns & math summaries
-│   ├── blogs/                                     # Published engineering post-mortems & LinkedIn articles
 │   └── benchmarks/                                # Quantitative eval suites, gold datasets & stress tests
 │
 └── 🎨 assets/                                     # Mascot branding & UI assets
@@ -67,7 +66,6 @@ An autonomous, multi-agent market and technical intelligence engine:
 ## 📚 Insights & Artifacts
 
 * **[Research Papers Catalog](./insights/papers)**: Reading guides, mathematical abstractions, and algorithmic comparisons.
-* **[Engineering Articles & Post-Mortems](./insights/blogs)**: Why handcrafted prompts fail, domino error propagation, and security invariants.
 * **[Quantitative Benchmark Suites](./insights/benchmarks)**: Gold test sets for prompt drift, memory recall accuracy, and stress tests.
 
 ---

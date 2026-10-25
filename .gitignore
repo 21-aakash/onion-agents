@@ -60,3 +60,10 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Blogs & Social Media Content (Stored in dedicated C:\Desktop\new-workspace\blogs)
+*linkedin*
+*LinkedIn*
+*blog*
+*Blog*
+blogs/

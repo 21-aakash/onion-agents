@@ -25,8 +25,7 @@ graph TD
         end
         subgraph Insights["📚 Insights & Artifacts"]
             I1["<b>Papers Catalog</b>"]
-            I2["<b>Engineering Blogs</b>"]
-            I3["<b>Eval Benchmarks</b>"]
+            I2["<b>Eval Benchmarks</b>"]
         end
     end
     TheLab -->|Graduated Architectures| TheFleet
